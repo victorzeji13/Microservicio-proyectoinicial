@@ -12,7 +12,7 @@ public class ProyectoController {
     public DefaultResponseDto hello(){
         DefaultResponseDto responseDto = new DefaultResponseDto();
         responseDto.setCode(1);
-        responseDto.setMessage("Operation successfully");
+        responseDto.setMessage("Operation successfully spring");
         responseDto.setTimestamp(Instant.now());
         System.out.println(responseDto.toString());
         return responseDto;
